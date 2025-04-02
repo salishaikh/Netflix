@@ -8,6 +8,7 @@ const Home = () => {
             <Main />
             <Row title='Up Coming' fetchURL={request.requestTopRated} />
             <Row title='Trending' fetchURL={request.requestTrending} />
+             <Row title='NOw playing' fetchURL={request.requestplaying} />
             <Row title='comedy' fetchURL={request.requestlist} />
             <Row title='action' fetchURL={request.requestlist} />
 
